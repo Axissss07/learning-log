@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+.venv/
+venv/
+env/
+.env
+
+# Logs
+*.log
