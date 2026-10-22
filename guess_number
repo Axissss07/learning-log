@@ -1,0 +1,25 @@
+import random
+num = random.randint(1,10)
+guess1 = int(input("请输入你要猜的数字"))
+if guess1 != num:
+    if guess1 > num:
+        print("大了")
+    else:
+        print("小了")
+        guess2 = int(input("输入第二次猜的数字"))
+        if guess2 != num:
+            if guess2 > num:
+                print("大了")
+            else:
+                print("小了")
+                guess3 = int(input("输入第三次猜的数字"))
+                if guess3 > num:
+                    print("大了")
+                elif guess3 < num:
+                    print("小了，机会用完了")
+                else:
+                    print("恭喜你，猜对了！")
+        else:
+            print("恭喜你，猜对了！")
+else:
+    print("恭喜你，猜对了！")
